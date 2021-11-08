@@ -1,0 +1,9 @@
+.public-DraftEditor-content {
+    height: 100%;
+}
+
+.draft-js-editor-card-body {
+    padding: 0.5rem;
+    height: 80vh;
+    overflow: scroll;
+}

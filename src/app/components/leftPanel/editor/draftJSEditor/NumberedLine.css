@@ -1,0 +1,15 @@
+.numbered-line-container {
+    position: relative;
+}
+
+.numbered-line-container::before {
+    content: attr(data-line-number);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: grey;
+}
+
+.numbered-line-text {
+    margin-left: 2.2rem;
+}

@@ -1,0 +1,72 @@
+{
+    "name": "while-simulator",
+    "author": "Simon Meusel",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.6.2",
+        "@testing-library/jest-dom": "^5.15.0",
+        "@testing-library/react": "^12.1.2",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/draft-js": "^0.11.6",
+        "@types/jest": "^27.0.2",
+        "@types/moo": "^0.5.5",
+        "@types/nearley": "^2.11.2",
+        "@types/node": "^16.11.6",
+        "@types/react": "^17.0.34",
+        "@types/react-dom": "^17.0.11",
+        "@types/react-redux": "^7.1.20",
+        "bootstrap": "^5.1.3",
+        "bootstrap-icons": "^1.7.0",
+        "draft-js": "^0.11.7",
+        "generate-license-file": "^1.2.0",
+        "i18next": "^21.4.0",
+        "i18next-browser-languagedetector": "^6.1.2",
+        "immutable": "^4.0.0",
+        "moo": "^0.5.1",
+        "nearley": "^2.20.1",
+        "prettier": "^2.4.1",
+        "react": "^17.0.2",
+        "react-bootstrap": "^2.0.1",
+        "react-dom": "^17.0.2",
+        "react-i18next": "^11.13.0",
+        "react-redux": "^7.2.6",
+        "react-scripts": "4.0.3",
+        "typescript": "^4.4.4"
+    },
+    "devDependencies": {
+        "prettier": "^2.4.1"
+    },
+    "scripts": {
+        "start": "npm run generateParser && react-scripts start",
+        "build": "npm run generateParser && GENERATE_SOURCEMAP=false react-scripts build && npm run generateLicenseFile",
+        "test": "react-scripts test",
+        "lint": "prettier --loglevel warn --write \"**/*.{json,md,ts}\"",
+        "generateParser": "nearleyc src/core/parser/nearley/whileGrammar.ne -o src/core/parser/nearley/generatedWhileGrammar.ts",
+        "generateLicenseFile": "generate-license-file --input package.json --output build/3rd-party-licenses.txt"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "prettier": {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "tabWidth": 4
+    },
+    "homepage": "./"
+}

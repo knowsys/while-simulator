@@ -1,0 +1,81 @@
+{
+    "common": {
+        "giveFeedback": "Feedback geben!",
+        "closeModal": "Schließen"
+    },
+    "editor": {
+        "codeEditor": "Programmeditor",
+        "runProgram": "Program starten",
+        "unexpectedToken": "Ungültiges Token:",
+        "expectedTheFollowingTokenTypes": "Erwartete eines der folgenden Tokens:",
+        "tokenTypes": {
+            "finiteLoopStart": "Start einer LOOP-Schleife",
+            "whileLoopStart": "Start einer While-Schleife",
+            "branchStart": "Start einer If-Anweisung",
+            "branchThen": "THEN einer If-Anweisung",
+            "loopDo": "Schleifen DO",
+            "loopEnd": "Schleifenende",
+            "notEqual": "Ungleich-Operator",
+            "assign": "Zuweisungsoperator",
+            "semicolon": "Semikolon",
+            "plus": "Plus Zeichen",
+            "minus": "Minus Zeichen",
+            "identifier": "Variablenbezeichner",
+            "zeroIntegerLiteral": "Null",
+            "nonZeroIntegerLiteral": "Natürliche Zahl außer Null",
+            "singleLineComment": "Kommentar",
+            "whitespace": "Leerzeichen oder Kommentar",
+            "newLine": "Neue Zeile",
+            "error": "Ungültiges Symbol",
+            "endOfFile": "Programmende"
+        }
+    },
+    "navigationBar": {
+        "openFile": "Datei öffnen",
+        "downloadFile": "Herunterladen",
+        "documentation": "Dokumentation",
+        "examples": "Beispiele",
+        "thirdPartyLicenses": "Open-Source-Lizenzen"
+    },
+    "executionPanel": {
+        "panelExplanation": "Legen Sie fest, welche Variablen Eingabewerte für das Programm beinhalten sollen. Alle anderen Variablen haben zu Beginn den Wert Null. Starten Sie die Programmausführung.",
+        "cardTitle": "Programmausführung",
+        "executionFinishedRunning": "Ausführung fertig",
+        "executionIsRunning": "Wird ausgeführt",
+        "executionIsPaused": "Pausiert",
+        "executionStep": "Schritt",
+        "executionStatus": "Ausführungszustand",
+        "startExecution": "Start",
+        "restartExecution": "Neustart",
+        "continueExecution": "Weiter",
+        "stopExecution": "Stop",
+        "addVariable": "Neue Eingabevariable",
+        "variableIdentifier": "Variablenname",
+        "initialValue": "Initialwert",
+        "initialValuesSetToZero": "Alle anderen Variablen sind initial auf Null gesetzt",
+        "currentValue": "Aktueller Wert",
+        "finalValue": "Wert (Ergebnis)",
+        "inputValuesHeading": "Eingabewerte:",
+        "executionHeading": "Ausführung:",
+        "currentExecutionStep": "Aktueller Ausführungsschritt:",
+        "singleStepTooltip": "Einzelnen Schritt ausführen",
+        "restartInSingleStepModeTooltip": "Für die Schritt-für-Schritt-Ausführung neustarten"
+    },
+    "debugPanel": {
+        "title": "Debugger",
+        "flowTraceTable": "Ablaufprotokoll",
+        "description": "Zeigt die Werte der Variablen während der letzten 100 Ausführungsschritte."
+    },
+    "examples": {
+        "names": {
+            "syntax": "Syntax der WHILE-Sprache",
+            "multiplication": "Multiplikation zweier Zahlen"
+        },
+        "introduction": "Die folgenden Beispiele zeigen wie man die WHILE-Sprache verwenden kann:",
+        "title": "Beispielprogramme"
+    },
+    "footer": {
+        "sourceCode": "Quellcode",
+        "legalNotice": "Impressum"
+    }
+}

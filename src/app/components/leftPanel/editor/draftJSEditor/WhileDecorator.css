@@ -1,0 +1,31 @@
+.while-decorator-active-statement {
+    background-color: #adf09f;
+}
+
+.while-decorator-token-identifier {
+    color: blue;
+}
+
+.while-decorator-token-operator {
+    color: darkblue;
+}
+
+.while-decorator-token-keyword {
+    color: purple;
+}
+
+.while-decorator-token-other {
+    color: black;
+}
+
+.while-decorator-token-literal {
+    color: orange;
+}
+
+.while-decorator-token-comment {
+    color: green;
+}
+
+.while-decorator-token-error {
+    color: red;
+}

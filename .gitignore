@@ -1,0 +1,15 @@
+*
+
+!/.github**
+!/docs**
+!/public**
+!/src**
+
+!/.gitignore
+!/LICENSE.txt
+!/package.json
+!/package-lock.json
+!/README.md
+!/tsconfig.json
+
+/src/core/parser/nearley/generatedWhileGrammar.ts
