@@ -38,7 +38,7 @@
         "thirdPartyLicenses": "Open-Source-Lizenzen"
     },
     "executionPanel": {
-        "panelExplanation": "Legen Sie fest, welche Variablen Eingabewerte für das Programm beinhalten sollen. Alle anderen Variablen haben zu Beginn den Wert Null. Starten Sie die Programmausführung.",
+        "panelExplanation": "In diesem Panel können Sie ihr Programm testen. Parameter können an das Programm übergeben, indem Eingabevariablen verwendet werden. Alle anderen Variablen haben zu Beginn den Wert Null. Nach dem Festlegen der Eingabevariablen können Sie die Programmausführung starten.",
         "cardTitle": "Programmausführung",
         "executionFinishedRunning": "Ausführung fertig",
         "executionIsRunning": "Wird ausgeführt",

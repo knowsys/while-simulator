@@ -3,10 +3,10 @@
 ## Development
 
 -   Install NodeJS together with NPM
+-   Clone the repository with Git and open a terminal inside of it
 -   Install the application dependencies: `npm install`
 -   Run the application: `npm start`
 -   Make changes to the code
--   Keep the development documentation up to date
 -   Auto-format the code: `npm run lint`
 -   Commit and push the changes with Git
 

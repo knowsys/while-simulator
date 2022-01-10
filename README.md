@@ -1,4 +1,6 @@
-# while-simulator
+# While language simulator
+
+<img src=".github/repository-banner.png" align="center"></img>
 
 Web application for developing and testing WHILE/LOOP programs.
 
@@ -26,7 +28,7 @@ for (const configuration of generator) {
 
 ## How to contribute
 
--   If you don't know where to start, read `docs/gettingStarted.md`.
+-   Docs on how to get the project up and running are in `docs/gettingStarted.md`.
 -   The application structure is described in `docs/modules.md`
 -   Read `docs/guidelines.md`
 -   The application docs should be kept in sync with the source code

@@ -38,7 +38,7 @@
         "thirdPartyLicenses": "Open source licenses"
     },
     "executionPanel": {
-        "panelExplanation": "Choose which variables contain input values of the program. All other variables are initially set to zero. Start the program execution.",
+        "panelExplanation": "You can use this panel to test your program. Parameters can be passed to the program by using input variables. All other variables are initially set to zero. After setting up the input variables, you can start the program execution.",
         "cardTitle": "Program execution",
         "executionFinishedRunning": "Finished running",
         "executionIsRunning": "Running",
