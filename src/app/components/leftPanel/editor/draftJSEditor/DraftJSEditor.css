@@ -6,4 +6,19 @@
     padding: 0.5rem;
     height: 80vh;
     overflow: scroll;
+    position: relative;
+}
+
+.editor-wrapper-editor-container {
+    position: absolute;
+    white-space: pre;
+    width: 100%;
+}
+
+.editor-wrapper-line-number-container {
+    float: left;
+    white-space: pre;
+    padding-right: 0;
+    color: grey;
+    text-align: end;
 }

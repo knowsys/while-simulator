@@ -9,8 +9,6 @@ export function setExecutor(
 ): ProgramInfo {
     const configurations = action.payload.executorInfo.lastConfigurations;
 
-    console.log('reducer', configurations);
-
     if (configurations.length !== 0) {
         const statement =
             configurations[configurations.length - 1].lastStatement;

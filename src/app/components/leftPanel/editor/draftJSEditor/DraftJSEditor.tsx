@@ -39,19 +39,16 @@ export function DraftJSEditor() {
                     </Button>
                 ) : undefined}
             </Card.Header>
-            <Card.Body className="draft-js-editor-card-body font-monospace">
-                <div
-                    onKeyDown={(event) => {
-                        if (event.key === 'Tab') {
-                            event.preventDefault();
-                            dispatch(
-                                programInfoSlice.actions.indentProgramText()
-                            );
-                        }
-                    }}
-                >
-                    <EditorWrapper></EditorWrapper>
-                </div>
+            <Card.Body
+                className="draft-js-editor-card-body font-monospace"
+                onKeyDown={(event: any) => {
+                    if (event.key === 'Tab') {
+                        event.preventDefault();
+                        dispatch(programInfoSlice.actions.indentProgramText());
+                    }
+                }}
+            >
+                <EditorWrapper />
             </Card.Body>
         </Card>
     );

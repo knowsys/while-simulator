@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -53,7 +53,9 @@ export const ExecutionManagerContext = React.createContext<
     ExecutionManager | undefined
 >(undefined);
 
-ReactDOM.render(
+const container = document.getElementById('root');
+const root = createRoot(container!);
+root.render(
     <React.StrictMode>
         <Provider store={store}>
             <ExecutionManagerContext.Provider value={executionManager}>
@@ -62,6 +64,5 @@ ReactDOM.render(
                 <LocalStorageAutoSaver />
             </ExecutionManagerContext.Provider>
         </Provider>
-    </React.StrictMode>,
-    document.getElementById('root')
+    </React.StrictMode>
 );

@@ -48,7 +48,7 @@ function createInitialProgramInfo(): ProgramInfo {
         ],
         executor: initialExecutor,
         isExecutorOutdated: false,
-        editorState: EditorState.createEmpty(new WhileDecorator()),
+        editorState,
         activeStatementEntityKey,
         parserErrorEntityKey,
         parserError: {

@@ -3,8 +3,8 @@ import 'draft-js/dist/Draft.css';
 import './DraftJSEditor.css';
 import { useState } from 'react';
 import { WhileDecorator } from './WhileDecorator';
-import { blockRenderFunction } from './EditorWrapper';
 import { useEffect } from 'react';
+import { LineNumbers } from './LineNumbers';
 
 export interface StaticDraftJSEditorProps {
     programText: string;
@@ -31,13 +31,24 @@ export function StaticDraftJSEditor(props: StaticDraftJSEditorProps) {
     };
 
     return (
-        <div className="font-monospace">
-            <Editor
-                editorState={editorState}
-                onChange={(editorState) => handleChange(editorState)}
-                blockRendererFn={blockRenderFunction}
-                handleBeforeInput={() => 'handled'}
-            />
+        <div className="position-relative">
+            <span className="editor-wrapper-line-number-container me-1">
+                <LineNumbers editorState={editorState} />
+            </span>
+            <span className="editor-wrapper-editor-container">
+                <Editor
+                    editorState={editorState}
+                    onChange={(editorState) => handleChange(editorState)}
+                    handleBeforeInput={() => 'handled'}
+                    textDirectionality={'LTR'}
+                    autoCapitalize={'off'}
+                    autoComplete={'off'}
+                    autoCorrect={'off'}
+                    spellCheck={false}
+                    stripPastedStyles={true}
+                    placeholder={'LOOP x1 DO x0 := x0 + x2 END'}
+                />
+            </span>
         </div>
     );
 }
