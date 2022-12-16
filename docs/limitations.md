@@ -1,5 +1,0 @@
--   The maximum line number of the editor is 999
-    -   Because the line number component does not automatically adjust it's space
--   The program text must not include the EOF token `$EOF$ebe91ee6-f3df-11eb-88fe-3af9d3cec4f0`
-    -   Adding a EOF token makes nearley produce better errors if the program end is reached
-    -   Properly implementing would require wrapping the lexer, which may be unnecessary effort

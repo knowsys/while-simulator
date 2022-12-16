@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.dc142643.css",
+    "main.js": "./static/js/main.68de77e8.js",
+    "static/media/bootstrap-icons.woff?": "./static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "./static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/logoICCL.svg": "./static/media/logoICCL.96e9e166a722085b4d09710303e7a3f6.svg",
+    "static/media/logoTUDresden.svg": "./static/media/logoTUDresden.00c59eedf6e2346fa1ad2793c8f032e1.svg",
+    "index.html": "./index.html"
+  },
+  "entrypoints": [
+    "static/css/main.dc142643.css",
+    "static/js/main.68de77e8.js"
+  ]
+}
